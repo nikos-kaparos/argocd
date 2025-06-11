@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: postgres
+    namespace: default
   name:  postgres-deployment
 spec:
   replicas: 1
