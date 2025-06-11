@@ -50,4 +50,4 @@ spec:
         - containerPort:  8080
           name:  spring
       imagePullSecrets:
-      - name: ghcr-creds
+      - name: ghrc-creds
