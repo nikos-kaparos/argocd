@@ -4,6 +4,7 @@ metadata:
   name: db-pvc
   labels:
     pvc: db
+  namespace: default
 spec:
   storageClassName: standard
   resources:
