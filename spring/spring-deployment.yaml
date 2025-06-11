@@ -15,8 +15,6 @@ spec:
       labels:
         app: spring
     spec:
-      imagePullSecrets:
-        - name: dockerhub-secret
       containers:
       - name:  spring
         image:  ghcr.io/nikos-kaparos/crowdfunding-backend:f607817-53
@@ -52,4 +50,4 @@ spec:
         - containerPort:  8080
           name:  spring
       imagePullSecrets:
-      - name: registry-credentials
+      - name: dockerhub-secret
