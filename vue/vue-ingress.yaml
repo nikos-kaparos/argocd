@@ -4,7 +4,8 @@ metadata:
   name: vue-ingress
 spec:
   rules:
-  - http:
+  - host: "vue.kaparos.ip-ddns.com"
+    http:
       paths:
       - path: /
         pathType: ImplementationSpecific
