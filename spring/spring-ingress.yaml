@@ -6,7 +6,8 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - http:
+  - host: "spring.kaparos.ip-ddns.com"
+    http:
       paths:
       - path: /
         pathType: ImplementationSpecific
