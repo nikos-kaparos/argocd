@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name:  spring
-        image: ghcr.io/nikos-kaparos/crowdfunding-backend:8e69d47-99
+        image: ghcr.io/nikos-kaparos/crowdfunding-backend:cfecb23-100
         livenessProbe:
           httpGet:
             path: "/actuator/health/liveness"
