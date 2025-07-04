@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name:  vue
-        image: ghcr.io/nikos-kaparos/crowdfunding-frontend:3215aa8-104
+        image: ghcr.io/nikos-kaparos/crowdfunding-frontend:3215aa8-105
         resources:
           requests:
             cpu: 200m
