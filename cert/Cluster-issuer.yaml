@@ -14,5 +14,5 @@ spec:
       name: account-key-prod
     solvers:
     - http01:
-       ingress:
-         class: public
+      ingress:
+        class: public
