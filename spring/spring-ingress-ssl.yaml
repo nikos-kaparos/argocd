@@ -6,8 +6,8 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   tls:
-    - hosts: spring.kaparos.ip-ddns.com
-        - 
+    - hosts: 
+        - spring.kaparos.ip-ddns.com
       secretName: spring-tls-secret
   rules:
     - host: "spring.kaparos.ip-ddns.com"
